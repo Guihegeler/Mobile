@@ -13,6 +13,36 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".SacActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReservasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecuperarUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlanosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocaisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListarBicicletasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListaBicicletasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HorariosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BicicletasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CadastrarUsuariosActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuPrincipalActivity"
             android:exported="false" />
         <activity
@@ -20,7 +50,7 @@
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,7 +60,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-
     </application>
 
 </manifest>
