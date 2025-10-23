@@ -31,9 +31,6 @@
             android:name=".ListarBicicletasActivity"
             android:exported="false" />
         <activity
-            android:name=".ListaBicicletasActivity"
-            android:exported="false" />
-        <activity
             android:name=".HorariosActivity"
             android:exported="false" />
         <activity
@@ -57,9 +54,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
     </application>
 
 </manifest>

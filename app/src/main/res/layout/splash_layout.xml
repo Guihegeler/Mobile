@@ -8,13 +8,13 @@
     tools:context=".SplashActivity"
     android:orientation="vertical"
     android:gravity="center_vertical"
-    android:background="#4c4c">
+    android:background="#000000">
 
     <ImageView
         android:layout_gravity="center_horizontal"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="#5c3f5c"
+        android:src="@drawable/bolo"
         android:scaleType="centerCrop"
 
         />
@@ -26,15 +26,16 @@
         android:text="Bolos de pote da débora"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="15dp"
+        android:textColor="#EBCCA0"
+        android:textSize="20sp"
         />
 
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:indeterminate="true"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"/>
-
+        android:layout_margin="10dp"
+        android:indeterminate="true"/>
 
 
 </LinearLayout>
