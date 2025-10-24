@@ -41,7 +41,8 @@
             android:layout_marginBottom="20sp"
             android:hint="Insira o seu email"
             app:endIconMode="clear_text"
-            android:textColorHint="#fff">
+            android:textColorHint="#fff"
+            app:counterOverflowTextColor="#fff">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtEmail"
